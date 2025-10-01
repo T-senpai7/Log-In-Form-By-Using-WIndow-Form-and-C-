@@ -2,10 +2,14 @@
 Coding by C# and using Winform. Log In and Register In by using SQL Client package and SQL database, string connection
 
 **THÔNG TIN THÀNH VIÊN**
-Hồ Hoàng Tiến: 24521762
+Hồ Hoàng Tiến: 24521762 
+
 Nguyễn Lê Ngọc Ánh: 24520105 
+
 Trần Minh Toàn: 24521798
+
 Vũ Cao Thạch: 24521593
+
 Ngô Văn Tĩnh: 24521791
 
 **HƯỚNG DẪN ĐẦY ĐỦ THÔNG TIN DỰ ÁN**
