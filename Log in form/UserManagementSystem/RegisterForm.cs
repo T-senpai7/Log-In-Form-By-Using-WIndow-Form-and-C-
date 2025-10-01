@@ -143,7 +143,7 @@ namespace UserManagementSystem
                 UseSystemPasswordChar = true
             };
 
-            /
+            
             chkShowPassword = new CheckBox
             {
                 Text = "Hiển thị mật khẩu",
@@ -352,4 +352,5 @@ namespace UserManagementSystem
             this.ResumeLayout(false);
         }
     }
+
 }
