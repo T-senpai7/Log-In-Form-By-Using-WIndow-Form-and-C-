@@ -108,19 +108,31 @@ Expected: "Mật khẩu không chính xác"
 ____________________________________
 **CHECKLIST HOÀN THÀNH**
  Tạo database và bảng Users
+ 
  Class PasswordHelper (SHA-256)
+
  Class DatabaseHelper
+ 
  LoginForm với validation
+ 
  RegisterForm với validation
+ 
  MainForm hiển thị thông tin
+ 
  Mã hóa mật khẩu
- Kiểm tra username trùng
- Kiểm tra email trùng
+ 
+ Kiểm tra username, email trùng 
+ 
  Validation email format
+ 
  Password confirmation
+ 
  Show/Hide password
+ 
  Exception handling
+ 
  Thông báo lỗi thân thiện
+ 
  Giao diện đẹp, dễ sử dụng
  Enter key navigation
  Connection string config
