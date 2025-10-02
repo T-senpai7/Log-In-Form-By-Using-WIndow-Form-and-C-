@@ -60,6 +60,33 @@ sqlcmd -S .\SQLEXPRESS -E -Q "USE UserManagementDB; SELECT UserId, Username, Ema
 
 # Xem cấu trúc bảng
 sqlcmd -S .\SQLEXPRESS -E -Q "USE UserManagementDB; SELECT COLUMN_NAME, DATA_TYPE, IS_NULLABLE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Users'"
+
+_________________________________
+**Trong trường hợp nếu có lỗi phảt sinh và debug, copy lệnh sau và thực thi:
+# 1. Dừng ứng dụng
+taskkill /F /IM UserManagementSystem.exe
+
+# 2. Di chuyển vào thư mục project
+cd UserManagementSystem
+
+# 3. Clean project
+dotnet clean
+
+# 4. Xóa thư mục build
+rmdir /s /q bin
+rmdir /s /q obj
+
+# 5. Restore và build
+dotnet restore
+dotnet build
+
+# 6. Chạy ứng dụng
+dotnet run
+
+
+
+
+
 _________________________________
 **TEST CASES**
 Test Case 1: Đăng ký thành công
