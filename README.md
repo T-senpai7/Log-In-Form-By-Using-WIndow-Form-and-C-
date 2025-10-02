@@ -17,8 +17,7 @@ Ngô Văn Tĩnh: 24521791
 2. Thực hiện mở terminal, chú ý đã cài đặt đặt đủ .Net và C# để sử dụng 
 3. Thực hiện lệnh dẫn để cd đến Log in form folder rồi đến  UserManagementSystem folder 
 4. Chạy terminal theo lệnh: "dotnet run" và bắt đầu sử dụng 
-![Uploading image.png…]()
-
+![alt text](image.png) 
 
 **Nếu chưa thể chạy do môi trường, cần xem xét các bước bên dưới**
 ______________________________________
